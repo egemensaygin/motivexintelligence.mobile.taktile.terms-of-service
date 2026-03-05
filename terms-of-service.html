@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taktile – Terms of Service</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d0d0f;
+      --surface: #16171a;
+      --border: #2a2b30;
+      --accent: #6c63ff;
+      --accent-light: #8b85ff;
+      --text: #e8e9ef;
+      --muted: #9395a5;
+      --radius: 12px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      font-size: 16px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 60px 24px 48px;
+      text-align: center;
+    }
+
+    header .logo {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding: 6px 18px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: clamp(28px, 5vw, 48px);
+      font-weight: 800;
+      letter-spacing: -1px;
+      color: #fff;
+    }
+
+    header .meta {
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    .toc {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 48px;
+    }
+
+    .toc h2 {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent-light);
+      margin-bottom: 16px;
+    }
+
+    .toc ol {
+      padding-left: 20px;
+      color: var(--muted);
+    }
+
+    .toc ol li {
+      margin-bottom: 6px;
+    }
+
+    .toc ol li a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 15px;
+      transition: color 0.2s;
+    }
+
+    .toc ol li a:hover {
+      color: var(--accent-light);
+    }
+
+    section {
+      margin-bottom: 48px;
+    }
+
+    section h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    section h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 32px;
+      height: 32px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    section p {
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+
+    section ul, section ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    section ul li, section ol li {
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .highlight-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin: 20px 0;
+    }
+
+    .highlight-box p {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .warning-box {
+      background: rgba(255, 180, 0, 0.07);
+      border: 1px solid rgba(255, 180, 0, 0.25);
+      border-left: 4px solid #ffb400;
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin: 20px 0;
+    }
+
+    .warning-box p {
+      margin: 0;
+      font-size: 15px;
+      color: #ffd166;
+    }
+
+    footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 36px 24px;
+      text-align: center;
+    }
+
+    footer p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    footer a {
+      color: var(--accent-light);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    a {
+      color: var(--accent-light);
+    }
+
+    @media (max-width: 600px) {
+      .toc { padding: 20px; }
+      section h2 { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Taktile</div>
+  <h1>Terms of Service</h1>
+  <p class="meta">Effective Date: March 5, 2026 &nbsp;&bull;&nbsp; Last Updated: March 5, 2026</p>
+</header>
+
+<div class="container">
+
+  <div class="highlight-box">
+    <p>Please read these Terms of Service carefully before using Taktile. By downloading, installing, or using the app, you agree to be bound by these terms.</p>
+  </div>
+
+  <nav class="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#acceptance">Acceptance of Terms</a></li>
+      <li><a href="#description">Description of Service</a></li>
+      <li><a href="#eligibility">Eligibility</a></li>
+      <li><a href="#accounts">User Accounts</a></li>
+      <li><a href="#conduct">Acceptable Use & Conduct</a></li>
+      <li><a href="#leaderboard">Leaderboard & Social Features</a></li>
+      <li><a href="#ip">Intellectual Property</a></li>
+      <li><a href="#privacy">Privacy & Data Collection</a></li>
+      <li><a href="#third-party">Third-Party Services</a></li>
+      <li><a href="#disclaimers">Disclaimers</a></li>
+      <li><a href="#liability">Limitation of Liability</a></li>
+      <li><a href="#termination">Termination</a></li>
+      <li><a href="#changes">Changes to These Terms</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </nav>
+
+  <!-- 1 -->
+  <section id="acceptance">
+    <h2><span class="num">1</span> Acceptance of Terms</h2>
+    <p>These Terms of Service ("Terms") govern your access to and use of Taktile (the "App"), a mobile game collection developed and operated by the Taktile team ("we," "us," or "our").</p>
+    <p>By accessing or using the App, you confirm that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not agree, you must not use the App.</p>
+    <p>These Terms constitute a legally binding agreement between you and Taktile. We reserve the right to update or modify these Terms at any time.</p>
+  </section>
+
+  <!-- 2 -->
+  <section id="description">
+    <h2><span class="num">2</span> Description of Service</h2>
+    <p>Taktile is a mobile application that offers a collection of 12 fast-paced mini-games designed to test and improve your reflexes, coordination, and cognitive skills. The App includes, but is not limited to, the following features:</p>
+    <ul>
+      <li>A curated collection of 12 unique mini-games (Stack, Dash, Pong, Shift, Laser, Zigzag, Tetris, Color, Gate, Orbit, Protect, Reflex)</li>
+      <li>Global and regional leaderboards</li>
+      <li>User accounts with Google Sign-In and Apple Sign-In</li>
+      <li>Social sharing functionality</li>
+      <li>Multi-language support (English, Turkish, German, French, Spanish, Arabic)</li>
+      <li>Game statistics and performance tracking</li>
+    </ul>
+    <p>We may update, modify, add, or remove features of the App at any time without prior notice.</p>
+  </section>
+
+  <!-- 3 -->
+  <section id="eligibility">
+    <h2><span class="num">3</span> Eligibility</h2>
+    <p>You must be at least 4 years of age to use this App. By using Taktile, you represent and warrant that:</p>
+    <ul>
+      <li>You meet the minimum age requirement applicable in your jurisdiction.</li>
+      <li>If you are under 13 years old (or the applicable age of digital consent in your country), a parent or legal guardian has reviewed and agreed to these Terms on your behalf.</li>
+      <li>You have the legal capacity to enter into a binding agreement.</li>
+    </ul>
+    <p>We do not knowingly collect personal data from children under 13 without verified parental consent. If we become aware that a child under 13 has provided personal data without parental consent, we will take steps to remove such information.</p>
+  </section>
+
+  <!-- 4 -->
+  <section id="accounts">
+    <h2><span class="num">4</span> User Accounts</h2>
+    <p>To access certain features such as leaderboards and progress syncing, you may be required to create an account. You may sign in using:</p>
+    <ul>
+      <li><strong>Google Sign-In</strong> – subject to Google's Terms of Service</li>
+      <li><strong>Apple Sign-In</strong> – subject to Apple's Terms and Conditions</li>
+    </ul>
+    <p>When creating or maintaining an account, you agree to:</p>
+    <ul>
+      <li>Provide accurate and current information.</li>
+      <li>Keep your login credentials confidential.</li>
+      <li>Notify us immediately of any unauthorized use of your account.</li>
+      <li>Be responsible for all activities that occur under your account.</li>
+    </ul>
+    <p>We reserve the right to suspend or permanently terminate accounts that violate these Terms, engage in fraudulent activity, or are found to manipulate game scores or leaderboards.</p>
+  </section>
+
+  <!-- 5 -->
+  <section id="conduct">
+    <h2><span class="num">5</span> Acceptable Use & Conduct</h2>
+    <p>You agree to use Taktile only for lawful purposes and in a manner that does not infringe upon the rights of others. You must not:</p>
+    <ul>
+      <li>Cheat, hack, or exploit bugs to gain unfair advantages in any game or on leaderboards.</li>
+      <li>Use automated scripts, bots, or other unauthorized tools to interact with the App.</li>
+      <li>Attempt to reverse-engineer, decompile, or disassemble any part of the App.</li>
+      <li>Interfere with or disrupt the App's servers, networks, or backend infrastructure.</li>
+      <li>Transmit any malicious code, viruses, or harmful data.</li>
+      <li>Attempt to gain unauthorized access to other users' accounts or data.</li>
+      <li>Use the App for any commercial purpose without our written consent.</li>
+      <li>Violate any applicable local, national, or international law or regulation.</li>
+    </ul>
+    <div class="warning-box">
+      <p>Violation of these rules may result in immediate account suspension, permanent banning from leaderboards, and potential legal action.</p>
+    </div>
+  </section>
+
+  <!-- 6 -->
+  <section id="leaderboard">
+    <h2><span class="num">6</span> Leaderboard & Social Features</h2>
+    <p>Taktile features global leaderboards that display player scores and rankings. By participating in leaderboards, you acknowledge and agree that:</p>
+    <ul>
+      <li>Your display name and score may be visible to other users worldwide.</li>
+      <li>We reserve the right to remove or adjust scores that we determine, in our sole discretion, to have been achieved through cheating or exploitation.</li>
+      <li>Leaderboard rankings are provided for entertainment purposes and carry no monetary value or guaranteed prizes.</li>
+    </ul>
+    <p>When using social sharing features (e.g., sharing your score), you are responsible for the content you share and must comply with the terms of the platforms you share to. We are not responsible for any content shared externally through third-party platforms.</p>
+  </section>
+
+  <!-- 7 -->
+  <section id="ip">
+    <h2><span class="num">7</span> Intellectual Property</h2>
+    <p>All content within Taktile, including but not limited to game code, graphics, sounds, music, animations, UI design, fonts, and branding, is the exclusive property of Taktile and its licensors, and is protected by copyright, trademark, and other intellectual property laws.</p>
+    <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use the App solely for personal, non-commercial entertainment purposes.</p>
+    <p>You must not:</p>
+    <ul>
+      <li>Copy, reproduce, distribute, or publicly display any content from the App without our prior written permission.</li>
+      <li>Create derivative works based on the App or its content.</li>
+      <li>Remove or alter any copyright, trademark, or other proprietary notices.</li>
+    </ul>
+  </section>
+
+  <!-- 8 -->
+  <section id="privacy">
+    <h2><span class="num">8</span> Privacy & Data Collection</h2>
+    <p>Your privacy is important to us. By using Taktile, you consent to the collection and use of information as described below and in our full Privacy Policy.</p>
+    <p>We collect and process the following categories of data:</p>
+    <ul>
+      <li><strong>Account data:</strong> Name, email address, and profile picture obtained through Google/Apple Sign-In.</li>
+      <li><strong>Gameplay data:</strong> Scores, game statistics, session duration, and game progress, stored in Firebase Firestore.</li>
+      <li><strong>Device & usage data:</strong> Device type, OS version, crash logs, and performance metrics collected via Firebase Crashlytics.</li>
+      <li><strong>Preferences:</strong> App settings and preferences stored locally via Shared Preferences.</li>
+    </ul>
+    <p>We use this data to:</p>
+    <ul>
+      <li>Provide and improve the App experience.</li>
+      <li>Maintain and display leaderboards.</li>
+      <li>Diagnose and fix technical issues.</li>
+      <li>Comply with legal obligations.</li>
+    </ul>
+    <p>We do not sell your personal data to third parties. Data is processed in accordance with applicable data protection laws, including GDPR (for users in the European Economic Area) and CCPA (for users in California).</p>
+    <p>For full details, please refer to our <a href="#">Privacy Policy</a>.</p>
+  </section>
+
+  <!-- 9 -->
+  <section id="third-party">
+    <h2><span class="num">9</span> Third-Party Services</h2>
+    <p>Taktile integrates with the following third-party services. Your use of these services is subject to their respective terms and privacy policies:</p>
+    <ul>
+      <li><strong>Firebase (Google LLC)</strong> – Authentication, database, and crash reporting</li>
+      <li><strong>Google Sign-In (Google LLC)</strong> – Account authentication</li>
+      <li><strong>Apple Sign-In (Apple Inc.)</strong> – Account authentication</li>
+    </ul>
+    <p>We are not responsible for the practices, content, or policies of these third-party services. We encourage you to review their terms and privacy policies before using the App.</p>
+  </section>
+
+  <!-- 10 -->
+  <section id="disclaimers">
+    <h2><span class="num">10</span> Disclaimers</h2>
+    <p>THE APP IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</p>
+    <p>We do not warrant that:</p>
+    <ul>
+      <li>The App will be available uninterrupted, error-free, or secure at all times.</li>
+      <li>Any errors or defects will be corrected.</li>
+      <li>Leaderboard data will be 100% accurate or free from manipulation by other users.</li>
+    </ul>
+    <p>Some jurisdictions do not allow the exclusion of implied warranties, so some of the above exclusions may not apply to you.</p>
+  </section>
+
+  <!-- 11 -->
+  <section id="liability">
+    <h2><span class="num">11</span> Limitation of Liability</h2>
+    <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, TAKTILE AND ITS DEVELOPERS, OFFICERS, EMPLOYEES, AND AGENTS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE APP, INCLUDING BUT NOT LIMITED TO:</p>
+    <ul>
+      <li>Loss of data or game progress</li>
+      <li>Loss of profits or revenue</li>
+      <li>Personal injury or property damage</li>
+      <li>Unauthorized access to or use of our servers and your personal information</li>
+    </ul>
+    <p>In no event shall our total liability to you exceed the amount you have paid us in the twelve (12) months preceding the claim (or $10 USD if no payment has been made).</p>
+  </section>
+
+  <!-- 12 -->
+  <section id="termination">
+    <h2><span class="num">12</span> Termination</h2>
+    <p>We reserve the right to suspend or terminate your access to Taktile at any time, with or without notice, for any reason including but not limited to:</p>
+    <ul>
+      <li>Violation of these Terms.</li>
+      <li>Fraudulent, abusive, or illegal activity.</li>
+      <li>Manipulation of scores or leaderboards.</li>
+      <li>Discontinuation of the App or a particular feature.</li>
+    </ul>
+    <p>You may terminate your use of the App at any time by uninstalling it and requesting account deletion by contacting us. Upon termination, your right to use the App ceases immediately. We may retain certain data as required by law or for legitimate business purposes.</p>
+  </section>
+
+  <!-- 13 -->
+  <section id="changes">
+    <h2><span class="num">13</span> Changes to These Terms</h2>
+    <p>We may revise these Terms at any time. When we make material changes, we will update the "Last Updated" date at the top of this page. We may also notify you through the App or via email if you have an account registered.</p>
+    <p>Your continued use of Taktile after any changes constitutes your acceptance of the revised Terms. If you do not agree to the updated Terms, you must stop using the App.</p>
+  </section>
+
+  <!-- 14 -->
+  <section id="contact">
+    <h2><span class="num">14</span> Contact Us</h2>
+    <p>If you have any questions, concerns, or feedback regarding these Terms of Service, please reach out to us:</p>
+    <div class="highlight-box">
+      <p><strong>Taktile Support</strong><br />
+      Email: <a href="mailto:info@motivexintelligence.com">info@motivexintelligence.com</a><br />
+      </p>
+    </div>
+    <p>We aim to respond to all inquiries within 5 business days.</p>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Taktile. All rights reserved.</p>
+  <p><a href="https://www.motivexintelligence.com/privacy-policy">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="https://www.motivexintelligence.com/contact">Support</a></p>
+</footer>
+
+</body>
+</html>
